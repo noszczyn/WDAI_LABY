@@ -14,3 +14,36 @@ body {
       align-items: center;
       justify-content: center;
 }
+
+table, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+div {
+      width: 100px;
+      height: 100px;
+}
+
+.row {
+      display: flex;
+      flex-wrap: wrap;
+      width: 400px;
+      gap: 10px;
+}
+
+.sq1 {
+      background-color: red;
+}
+.sq2 {
+      background-color: orange;
+}
+.sq3 {
+      background-color: cyan;
+}
+.sq4 {
+      background-color: yellow;
+}
+.sq5 {
+      background-color: green;
+}
